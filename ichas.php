@@ -30,7 +30,4 @@ class SeePost {
     public function getIdeas() {
         return $this->ideas;
     }
-
-
-
 }
