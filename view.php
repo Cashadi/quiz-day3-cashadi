@@ -44,7 +44,7 @@ function menuWriter(Post $post) {
     if ((int)$questionWriter == 1) {
         createArticle($post);
     } else if ((int)$questionWriter == 2) {
-        echo "masih proses ya";
+        deleteArticle($post);
     } else if ((int)$questionWriter == 3) {
         firstMenu($post);
     }
