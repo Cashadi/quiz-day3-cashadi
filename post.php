@@ -3,8 +3,6 @@
 require_once "ichas.php";
 
 class Post {
-    // private array $viewPost;
-
     private $viewPost = [];
 
     // setter
